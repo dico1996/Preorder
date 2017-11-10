@@ -10,18 +10,8 @@ use Magento\Store\Model\ScopeInterface;
 
 class Data extends AbstractHelper
 {
-    protected $storeManager;
-    protected $objectManager;
-
-    const XML_PATH_HELLOWORLD = 'preorder/';
-
-    public function __construct(
-        Context $context,
-        ObjectManagerInterface $objectManager,
-        StoreManagerInterface $storeManager
-    ) {
-        $this->objectManager = $objectManager;
-        $this->storeManager  = $storeManager;
+    public function __construct(Context $context)
+    {
         parent::__construct($context);
     }
 
