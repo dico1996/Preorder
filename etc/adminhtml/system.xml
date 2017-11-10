@@ -3,11 +3,11 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <tab id="preorder" translate="label" sortOrder="600">
-            <label>Pre Order</label>
+            <label>Pre Order Discount</label>
         </tab>
         <section id="preorder" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
-            <label>PreOrder</label>
+            <label>Pre Order</label>
             <tab>preorder</tab>
             <resource>Dico_Preorder::config_discount</resource>
             <group id="preorder_discount" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
